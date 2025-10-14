@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Tokyo Night",
+  "accentColor": "#863de6",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "center-images"
+  ],
+  "monospaceFontFamily": "Hurmit Nerd Font Mono",
+  "textFontFamily": "Inter,Lexend",
+  "interfaceFontFamily": "Lexend,Inter",
+  "baseFontSize": 14
+}

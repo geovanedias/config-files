@@ -1,0 +1,23 @@
+{
+  "Appearance@@bg@@dark": "#0F0E14",
+  "Appearance@@accent@@dark": "#9442FF",
+  "Appearance@@bg_highlight@@dark": "#292E42",
+  "Appearance@@red1@@dark": "#FF2727",
+  "Appearance@@magenta@@dark": "#9442FF",
+  "Editor@@h1-color@@dark": "#22B600",
+  "Editor@@h2-color@@dark": "#BF5AFF",
+  "Editor@@h3-color@@dark": "#04E388",
+  "Editor@@h4-color@@dark": "#00E6DE",
+  "Editor@@h5-color@@dark": "#00A5FF",
+  "Editor@@h6-color@@dark": "#FF9300",
+  "Appearance@@yellow@@light": "#D4D518",
+  "Appearance@@yellow@@dark": "#D6D727",
+  "Editor@@bold-color@@dark": "#CCECC0",
+  "Editor@@link-color@@dark": "#40CD13",
+  "Editor@@link-color-hover@@dark": "#EFEF13",
+  "Editor@@italic-color@@light": "#000000",
+  "Editor@@bold-color@@light": "#000000",
+  "Editor@@italic-color@@dark": "#CCECC0",
+  "Appearance@@text-normal@@dark": "#D6D5FD",
+  "Editor@@code-comment@@dark": "#6CAC69"
+}

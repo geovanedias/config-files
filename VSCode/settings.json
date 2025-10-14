@@ -1,0 +1,132 @@
+{
+  // Code editor
+  "editor.cursorWidth": 3,
+  "editor.inlayHints.enabled": "off",
+  "editor.lightbulb.enabled": "on",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.8,
+  "editor.quickSuggestionsDelay": 250,
+  "editor.renderLineHighlight": "all",
+  "editor.rulers": [
+    {"column": 120, "color": "#ffffff07"},
+    {"column": 80, "color": "#ffffff07"}
+  ],
+  "editor.semanticHighlighting.enabled": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.snippets.codeActions.enabled": false,
+  "editor.tabSize": 2,
+  "editor.parameterHints.enabled": false,
+  "editor.suggest.showStatusBar": false,
+  "editor.snippetSuggestions": "bottom",
+
+  // Minimap
+  
+  "editor.minimap.showSlider": "always",  // Display where you are
+  "editor.minimap.renderCharacters": true,  // Blocks instead of text
+   
+  // Workbench
+  "workbench.editorAssociations": {
+    "*.exe": "default"
+  },
+  "workbench.fontAliasing": "antialiased",
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Temas
+  "window.systemColorTheme": "dark",
+  "workbench.colorTheme": "One Dark Pro",
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.editorTheme": "Retro",
+  
+  "workbench.colorCustomizations": {
+    "editor.background": "#0c0c0c",
+    "editor.selectionHighlightBackground": "#044d0088",
+    "editor.selectionHighlightBorder": "#00000000",
+    "editorBracketMatch.background": "#00000000",
+    "editor.wordHighlightBackground": "#00000000",
+    "editor.wordHighlightStrongBackground": "#00000000",
+    
+    "activityBar.border": "#00aa00",
+    "sideBar.border": "#00aa00",
+    "editorGroup.border": "#00aa00",
+    "panel.border": "#00aa00",
+    "statusBar.border": "#00aa00",
+    "titleBar.border": "#00aa00",
+
+    "minimap.background": "#00000000",
+    "minimap.selectionHighlight": "#80ff0030",
+    
+    "[One Dark Pro Night Flat]": {
+      "editorCursor.foreground": "#f8e67e",
+    }
+  },
+  "window.customTitleBarVisibility": "auto",
+
+  // Terminal
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 3,
+  "terminal.integrated.fontFamily": "Hurmit Nerd Font Light",
+
+  // Files
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "files.autoSaveWhenNoErrors": true,
+
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "githubPullRequests.createOnPublishBranch": "never",
+
+  // Extensions
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "redhat.telemetry.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": false,
+
+  // Language Specific
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  // Java
+  "java.cleanup.actions": [],
+  "java.saveActions.cleanup": false,
+  "java.inlayHints.parameterNames.enabled": "none",
+  "java.signatureHelp.enabled": false,
+  
+
+  // Prettier
+  "prettier.quoteProps": "preserve",
+  "prettier.singleQuote": true,
+
+  // Markdown
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "editor.cursorBlinking": "phase",
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "'Hurmit Nerd Font Propo Light', 'monospace', monospace",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+  // Live Server
+  "liveServer.settings.port": 5501,
+  "liveServer.settings.NoBrowser": true,
+   
+}

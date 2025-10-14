@@ -1,0 +1,21 @@
+{	/* Place your snippets for java here. 
+	Each snippet is defined under a snippet name and has a prefix, body and description.
+	The prefix is what is used to trigger the snippet and the body will be expanded and inserted. 
+	Possible variables are:
+	$1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	Placeholders with the same ids are connected. */
+	
+	"Printf with newline": {
+		"prefix": "souf",
+		"body": "System.out.printf(\"$0\\n\");",
+		"description": "Insere System.out.printf com quebra de linha"
+	}
+
+	"Scanner with System input": {
+		"prefix": "scan",
+		"body": ["Scanner scanner = new Scanner(System.in);",
+			"$0",
+		]
+		"description": "Insere um scanner com System.in"
+	}
+}

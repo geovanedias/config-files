@@ -2,7 +2,7 @@
 format = """($all
 )$character"""
 
-add_newline = false
+add_newline = true
 
 [line_break]
 disabled = true
@@ -29,7 +29,7 @@ read_only = " 󰌾"
 [hostname]
 ssh_symbol = " "
 ssh_only = true
-format = '[$ssh_symbol](bold blue) on [$hostname](bold red) '
+format = '[$ssh_symbol](bold blue)[$hostname](bold red) '
 trim_at = '.companyname.com'
 disabled = false
 

@@ -1,5 +1,5 @@
 # Put new-line inside of ($all) variable)
-format = """($all
+format = """($username $hostname$directory$git_branch$git_status$cmd_duration
 )$character"""
 
 add_newline = true
@@ -20,6 +20,11 @@ red = '#f7768e'
 white = '#a9b1d6'
 yellow = '#e0af68'
 
+[username]
+format = '[$user]($style)'
+show_always = true
+disabled = false
+
 [directory]
 use_logical_path = true
 truncation_length = 0
@@ -32,6 +37,10 @@ ssh_only = true
 format = '[$ssh_symbol](bold blue)[$hostname](bold red) '
 trim_at = '.companyname.com'
 disabled = false
+
+[cmd_duration]
+format = 't:[$duration]($style)'
+min_time = 2_000
 
 [git_branch]
 symbol = ' ' # 
